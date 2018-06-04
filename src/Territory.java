@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Territory {
@@ -5,8 +6,8 @@ public class Territory {
 	private String name;
 	private Region region;
 	private Player player;
-	private List<Territory> borders;
-	private List<Unit> units;
+	private List<Territory> borders = new ArrayList<>();
+	private List<Unit> units = new ArrayList<>();
 
 	public Territory(String name, Region region) {
 		this.name = name;
@@ -43,6 +44,10 @@ public class Territory {
 
 	public void setBorders(List<Territory> borders) {
 		this.borders = borders;
+	}
+
+	public void addBorder(Territory border) {
+		borders.add(border);
 	}
 
 	public List<Unit> getUnits() {
