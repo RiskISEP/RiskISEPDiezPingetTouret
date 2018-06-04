@@ -1,11 +1,12 @@
 public class Mission7 extends Mission {
 
-    public Mission7(Game game, Player player) {
-        super("Mission7", "Controler 21 territoires", game, player);
+    public Mission7() {
+        super("Mission7", "Controler 21 territoires");
     }
 
+
     @Override
-    boolean reached() {
-        return getPlayer().getTerritories().size() >= 21;
+    boolean reached(Game game, Player player) {
+        return player.getTerritories().size() >= 21;
     }
 }
