@@ -1,4 +1,4 @@
-public abstract class Mission {
+    public abstract class Mission {
 
     private String name;
     private String description;
