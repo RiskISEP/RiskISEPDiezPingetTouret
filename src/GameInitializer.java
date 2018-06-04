@@ -78,11 +78,88 @@ public class GameInitializer {
 					region.addTerritories(territory);
 				}
 				initNorthAmericaBorder(region);
+		}
+		initOtherBorders();
+	}
 
+	private void initOtherBorders() {
+		for (Region region: regions){
+			for (Region region1: regions){
+				if (region.getName().equals("Asia")) {
+					if (region1.getName().equals("NorthAmerica")){
+
+						region.findTerritoryByName("Kamchatka").addBorder(region1.findTerritoryByName("Alaska"));
+						region1.findTerritoryByName("Alaska").addBorder(region.findTerritoryByName("Kamchatka"));
+
+					} else if (region1.getName().equals("Oceania")){
+
+						region.findTerritoryByName("Siam").addBorder(region1.findTerritoryByName("Indonesia"));
+						region1.findTerritoryByName("Indonesia").addBorder(region.findTerritoryByName("Siam"));
+
+					} else if (region1.getName().equals("Africa")){
+
+						region.findTerritoryByName("MiddleEast").addBorder(region1.findTerritoryByName("Egypt"));
+						region1.findTerritoryByName("Egypt").addBorder(region.findTerritoryByName("MiddleEast"));
+
+						region.findTerritoryByName("MiddleEast").addBorder(region1.findTerritoryByName("EastAfrica"));
+						region1.findTerritoryByName("EastAfrica").addBorder(region.findTerritoryByName("MiddleEast"));
+
+					} else if (region1.getName().equals("Europe")){
+
+						region.findTerritoryByName("MiddleEast").addBorder(region1.findTerritoryByName("SouthernEurope"));
+						region1.findTerritoryByName("SouthernEurope").addBorder(region.findTerritoryByName("MiddleEast"));
+
+						region.findTerritoryByName("MiddleEast").addBorder(region1.findTerritoryByName("Ukraine"));
+						region1.findTerritoryByName("Ukraine").addBorder(region.findTerritoryByName("MiddleEast"));
+
+						region.findTerritoryByName("Ural").addBorder(region1.findTerritoryByName("Ukraine"));
+						region1.findTerritoryByName("Ukraine").addBorder(region.findTerritoryByName("Ural"));
+
+						region.findTerritoryByName("Afghanistan").addBorder(region1.findTerritoryByName("Ukraine"));
+						region1.findTerritoryByName("Ukraine").addBorder(region.findTerritoryByName("Afghanistan"));
+
+					}
+				} else if (region.getName().equals("Africa")){
+
+					if (region1.getName().equals("SouthAmerica")){
+
+						region.findTerritoryByName("NorthAfrica").addBorder(region1.findTerritoryByName("Brazil"));
+						region1.findTerritoryByName("Brazil").addBorder(region.findTerritoryByName("NorthAfrica"));
+
+					} else if (region1.getName().equals("Europe")){
+
+						region.findTerritoryByName("NorthAfrica").addBorder(region1.findTerritoryByName("WesternEurope"));
+						region1.findTerritoryByName("WesternEurope").addBorder(region.findTerritoryByName("NorthAfrica"));
+
+						region.findTerritoryByName("NorthAfrica").addBorder(region1.findTerritoryByName("SouthernEurope"));
+						region1.findTerritoryByName("SouthernEurope").addBorder(region.findTerritoryByName("NorthAfrica"));
+
+						region.findTerritoryByName("Egypt").addBorder(region1.findTerritoryByName("SouthernEurope"));
+						region1.findTerritoryByName("SouthernEurope").addBorder(region.findTerritoryByName("Egypt"));
+
+					}
+				} else if (region.getName().equals("Europe")){
+
+					if (region1.getName().equals("NorthAmerica")){
+
+						region.findTerritoryByName("Iceland").addBorder(region1.findTerritoryByName("Greenland"));
+						region1.findTerritoryByName("Greenland").addBorder(region.findTerritoryByName("Iceland"));
+
+					}
+				} else if (region.getName().equals("NorthAmerica")){
+
+					if (region1.getName().equals("SouthAmerica")){
+
+						region.findTerritoryByName("CentralAmerica").addBorder(region1.findTerritoryByName("Venezuela"));
+						region1.findTerritoryByName("Venezuela").addBorder(region.findTerritoryByName("CentralAmerica"));
+
+					}
+				}
+			}
 		}
 	}
 
-//  TODO faire les liaisons inter-Regions
+	//  TODO faire les liaisons inter-Regions
 	private void initNorthAmericaBorder(Region northAmerica) {
 		for (Territory territory :
 				northAmerica.getTerritories()) {
