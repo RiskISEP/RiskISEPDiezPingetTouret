@@ -20,6 +20,11 @@ public class GameInitializer {
 		initPlayers();
 	}
 
+	private void initPlayers() {
+		Menu menu = new Menu();
+		menu.askForPlayers(players);
+	}
+
 	private void initRegion() {
 		for (String name :
 				Arrays.asList("Asia", "Europe", "Oceania", "Africa", "SouthAmerica", "NorthAmerica")) {
@@ -556,17 +561,5 @@ public class GameInitializer {
 		}
 	}
 
-	private void initPlayers() {
-
-		System.out.print("nombre de joueurs humains : ");
-		int nbPlayers = scanner.nextInt();
-		scanner.nextLine();
-
-		for (int it = 0; it < nbPlayers; it++) {
-			System.out.print("nom du joueur " + (it + 1) + " : ");
-			String name = scanner.nextLine();
-			players.add(new Player(name));
-		}
-	}
 
 }
