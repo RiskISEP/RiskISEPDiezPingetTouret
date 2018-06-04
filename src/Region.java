@@ -4,8 +4,8 @@ import java.util.List;
 public class Region {
 
 	private String name;
-	private List<Territory> territories;
-	private List<Player> owners;
+	private List<Territory> territories = new ArrayList<>();
+	private List<Player> owners = new ArrayList<>();
 
 	public Region(String name) {
 		this.name = name;

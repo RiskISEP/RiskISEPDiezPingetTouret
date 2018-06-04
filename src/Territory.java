@@ -5,6 +5,7 @@ public class Territory {
 	private String name;
 	private Region region;
 	private Player player;
+	private List<Territory> borders;
 	private List<Unit> units;
 
 	public Territory(String name, Region region) {
@@ -34,6 +35,14 @@ public class Territory {
 
 	public void setPlayer(Player player) {
 		this.player = player;
+	}
+
+	public List<Territory> getBorders() {
+		return borders;
+	}
+
+	public void setBorders(List<Territory> borders) {
+		this.borders = borders;
 	}
 
 	public List<Unit> getUnits() {
