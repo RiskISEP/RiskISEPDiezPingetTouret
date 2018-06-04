@@ -7,9 +7,19 @@ public class Player {
 	private List<Territory> territories;
 	private List<Unit> units;
 	private Mission mission;
+	private boolean isAI;
 
-	public Player(String name) {
+	public boolean isAI() {
+		return isAI;
+	}
+
+	public void setAI(boolean AI) {
+		isAI = AI;
+	}
+
+	public Player(String name, boolean isAI) {
 		this.name = name;
+		this.isAI = isAI;
 	}
 
 	public String getName() {
