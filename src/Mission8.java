@@ -1,21 +1,21 @@
 public class Mission8 extends Mission {
 
-    public Mission8(Game game, Player player) {
-        super("Mission8", "Controler l'Asie et une autre region.", game, player);
+    public Mission8() {
+        super("Mission8", "Controler l'Asie et une autre region.");
     }
 
-    @Override
-    boolean reached() {
 
+    @Override
+    boolean reached(Game game, Player player) {
         Region asia = null;
         for (Region region :
-                getGame().getRegions()) {
+                game.getRegions()) {
             if (region.getName().equals("Asia")) {
                 asia = region;
                 break;
             }
         }
 
-        return (getPlayer().getRegions().contains(asia)) && (getPlayer().getRegions().size() >= 2);
+        return (player.getRegions().contains(asia)) && (player.getRegions().size() >= 2);
     }
 }

@@ -50,4 +50,14 @@ public class Region {
 		setOwners(players);
 		return players;
 	}
+
+	public Territory findTerritoryByName(String name) {
+		for (Territory territory :
+				territories){
+			if (territory.getName().equals(name)){
+				return territory;
+			}
+		}
+		return null;
+	}
 }
