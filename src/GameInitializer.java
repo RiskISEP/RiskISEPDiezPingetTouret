@@ -81,7 +81,8 @@ public class GameInitializer {
 
 		}
 	}
-//TODO faire les liaisons inter-Regions
+
+//  TODO faire les liaisons inter-Regions
 	private void initNorthAmericaBorder(Region northAmerica) {
 		for (Territory territory :
 				northAmerica.getTerritories()) {
@@ -373,85 +374,105 @@ public class GameInitializer {
 				case "Afghanistan":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Ural"),
+									asia.findTerritoryByName("China"),
+									asia.findTerritoryByName("India"),
+									asia.findTerritoryByName("MiddleEast"))) {
 						territory.addBorder(border);
 					}
 				case "Siam":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("India"),
+									asia.findTerritoryByName("China"))) {
 						territory.addBorder(border);
 					}
 				case "India":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("MiddleEast"),
+									asia.findTerritoryByName("Afghanistan"),
+									asia.findTerritoryByName("China"),
+									asia.findTerritoryByName("Siam"))) {
 						territory.addBorder(border);
 					}
 				case "MiddleEast":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Afghanistan"),
+									asia.findTerritoryByName("India"))) {
 						territory.addBorder(border);
 					}
 				case "China":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Afghanistan"),
+									asia.findTerritoryByName("Siberia"),
+									asia.findTerritoryByName("Mongolia"),
+									asia.findTerritoryByName("Siam"),
+									asia.findTerritoryByName("India"),
+									asia.findTerritoryByName("Ural"))) {
 						territory.addBorder(border);
 					}
 				case "Mongolia":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Siberia"),
+									asia.findTerritoryByName("Irkutsk"),
+									asia.findTerritoryByName("Kamchatka"),
+									asia.findTerritoryByName("Japan"),
+									asia.findTerritoryByName("China"))) {
 						territory.addBorder(border);
 					}
 				case "Japan":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Kamchatka"),
+									asia.findTerritoryByName("Mongolia"))) {
 						territory.addBorder(border);
 					}
 				case "Kamchatka":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Yakutsk"),
+									asia.findTerritoryByName("Japan"),
+									asia.findTerritoryByName("Mongolia"),
+									asia.findTerritoryByName("Irkutsk"))) {
 						territory.addBorder(border);
 					}
 				case "Irkutsk":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Siberia"),
+									asia.findTerritoryByName("Yakutsk"),
+									asia.findTerritoryByName("Kamchatka"),
+									asia.findTerritoryByName("Mongolia"))) {
 						territory.addBorder(border);
 					}
 				case "Yakutsk":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Siberia"),
+									asia.findTerritoryByName("Kamchatka"),
+									asia.findTerritoryByName("Irkutsk"))) {
 						territory.addBorder(border);
 					}
 				case "Siberia":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Ural"),
+									asia.findTerritoryByName("Yakutsk"),
+									asia.findTerritoryByName("Irkutsk"),
+									asia.findTerritoryByName("Mongolia"),
+									asia.findTerritoryByName("China"))) {
 						territory.addBorder(border);
 					}
 				case "Ural":
 					for (Territory border :
 							Arrays.asList(
-									asia.findTerritoryByName("GreatBritain"),
-									asia.findTerritoryByName("Scandinavia"))) {
+									asia.findTerritoryByName("Siberia"),
+									asia.findTerritoryByName("Afghanistan"),
+									asia.findTerritoryByName("China"))) {
 						territory.addBorder(border);
 					}
 			}
