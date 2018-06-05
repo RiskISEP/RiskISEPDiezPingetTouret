@@ -45,4 +45,15 @@ public class Menu {
             System.out.println((players.size() < 2 || players.size() > 6) ? "nombre incorrect" : "c'est parti!");
         } while (players.size() < 2 || players.size() > 6);
     }
+
+    public void move(Territory depart, Territory arrive, List<Unit> units) {
+
+        for (Unit unit :
+                units) {
+            System.out.println(unit);
+        }
+
+
+    
+    }
 }

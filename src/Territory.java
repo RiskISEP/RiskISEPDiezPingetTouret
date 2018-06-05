@@ -57,4 +57,9 @@ public class Territory {
 	public void setUnits(List<Unit> units) {
 		this.units = units;
 	}
+
+	public void moveUnits(Territory territory) {
+		Menu menu = new Menu();
+		menu.move(this, territory, this.units);
+	}
 }
