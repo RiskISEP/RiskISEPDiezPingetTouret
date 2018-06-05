@@ -1,5 +1,7 @@
 package fr.isep.riskIsep;
 
+import fr.isep.riskIsep.unit.Infantry;
+
 import java.util.*;
 
 
