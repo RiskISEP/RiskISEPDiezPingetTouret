@@ -22,9 +22,13 @@ public class GameInitializer {
         Menu menu = new Menu();
         menu.askForPlayers(players);
         List<Territory> allTerritory = new ArrayList<>();
+		System.out.println("Partie initialisée!");
+		System.out.print(".\tRégions : ");
         System.out.println(regions.size());
         for (Region it : regions) {
-            System.out.println(it.getTerritories().size());
+			System.out.print(".\t"+it.getName()+" : ");
+            System.out.print(it.getTerritories().size());
+			System.out.println(" territoires");
             for (Territory territory : it.getTerritories()) {
                 allTerritory.add(territory);
             }
