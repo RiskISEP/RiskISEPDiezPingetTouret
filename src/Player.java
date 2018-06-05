@@ -1,15 +1,26 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
 
 	private String name;
-	private List<Region> regions;
-	private List<Territory> territories;
-	private List<Unit> units;
+	private List<Region> regions = new ArrayList<>();
+	private List<Territory> territories = new ArrayList<>();
+	private List<Unit> units = new ArrayList<>();
 	private Mission mission;
+	private boolean isAI;
 
-	public Player(String name) {
+	public boolean isAI() {
+		return isAI;
+	}
+
+	public void setAI(boolean AI) {
+		isAI = AI;
+	}
+
+	public Player(String name, boolean isAI) {
 		this.name = name;
+		this.isAI = isAI;
 	}
 
 	public String getName() {
@@ -50,5 +61,9 @@ public class Player {
 
 	public void setMission(Mission mission) {
 		this.mission = mission;
+	}
+
+	public void addTerritory(Territory territory) {
+		territories.add(territory);
 	}
 }
