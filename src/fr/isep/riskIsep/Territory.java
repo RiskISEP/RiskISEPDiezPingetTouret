@@ -73,6 +73,11 @@ public class Territory {
 		this.units = units;
 	}
 
+	public void moveUnits(Territory territory) {
+		Menu menu = new Menu();
+		menu.move(this, territory, this.units);
+	}
+
 	public boolean isHovered(int xpos, int ypos) {
 		return occupancy.getColor((int) ((xpos - 383.8) * 1.418056279312142), (int) (ypos * 1.351251158480074)).equals(Color.white);
 	}

@@ -3,6 +3,8 @@ package fr.isep.riskIsep;
 import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
+import fr.isep.riskIsep.unit.Infantry;
+
 import java.util.*;
 
 
@@ -40,77 +42,128 @@ public class GameInitializer {
 		}
 		Collections.shuffle(allTerritory);
 
-		switch (players.size()) {
-			case 2:
-				for (int i = 0; i < allTerritory.size(); i = i + 2) {
-					players.get(0).addTerritory(allTerritory.get(i));
-					players.get(1).addTerritory(allTerritory.get(i + 1));
+        switch (players.size()) {
+            case 2:
+                for (int i = 0; i < allTerritory.size(); i = i + 2) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                }
+                for (int i = 0; i < 40; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                }
 
-				}
-				// System.out.println(allTerritory.size());
-				// System.out.println(players.get(0).getTerritories().size());
-				//  System.out.println(players.get(1).getTerritories().size());
-				break;
-			case 3:
-				for (int i = 0; i < allTerritory.size(); i = i + 3) {
-					players.get(0).addTerritory(allTerritory.get(i));
-					players.get(1).addTerritory(allTerritory.get(i + 1));
-					players.get(2).addTerritory(allTerritory.get(i + 2));
 
-				}
-				System.out.println(players.get(0).getTerritories().size());
-				System.out.println(players.get(1).getTerritories().size());
-				System.out.println(players.get(2).getTerritories().size());
-				break;
+                System.out.println(allTerritory.size());
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
 
-			case 4:
-				for (int i = 0; i < allTerritory.size(); i = i + 4) {
-					players.get(0).addTerritory(allTerritory.get(i));
-					players.get(1).addTerritory(allTerritory.get(i + 1));
-					if (i + 2 < allTerritory.size()) {
-						players.get(2).addTerritory(allTerritory.get(i + 2));
-						players.get(3).addTerritory(allTerritory.get(i + 3));
-					}
-				}
-				System.out.println(players.get(0).getTerritories().size());
-				System.out.println(players.get(1).getTerritories().size());
-				System.out.println(players.get(2).getTerritories().size());
-				System.out.println(players.get(3).getTerritories().size());
-				break;
+                break;
+            case 3:
+                for (int i = 0; i < allTerritory.size(); i = i + 3) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    players.get(2).addTerritory(allTerritory.get(i + 2));
 
-			case 5:
-				for (int i = 0; i < allTerritory.size(); i = i + 5) {
-					players.get(0).addTerritory(allTerritory.get(i));
-					players.get(1).addTerritory(allTerritory.get(i + 1));
-					if (i + 2 < allTerritory.size()) {
-						players.get(2).addTerritory(allTerritory.get(i + 2));
-						players.get(3).addTerritory(allTerritory.get(i + 3));
-						players.get(4).addTerritory(allTerritory.get(i + 4));
-					}
-				}
-				System.out.println(players.get(0).getTerritories().size());
-				System.out.println(players.get(1).getTerritories().size());
-				System.out.println(players.get(2).getTerritories().size());
-				System.out.println(players.get(3).getTerritories().size());
-				System.out.println(players.get(4).getTerritories().size());
-				break;
-			case 6:
+                }
+                for (int i = 0; i < 35; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
 
-				for (int i = 0; i < allTerritory.size(); i = i + 6) {
-					players.get(0).addTerritory(allTerritory.get(i));
-					players.get(1).addTerritory(allTerritory.get(i + 1));
-					players.get(2).addTerritory(allTerritory.get(i + 2));
-					players.get(3).addTerritory(allTerritory.get(i + 3));
-					players.get(4).addTerritory(allTerritory.get(i + 4));
-					players.get(5).addTerritory(allTerritory.get(i + 5));
-				}
-				System.out.println(players.get(0).getTerritories().size());
-				System.out.println(players.get(1).getTerritories().size());
-				System.out.println(players.get(2).getTerritories().size());
-				System.out.println(players.get(3).getTerritories().size());
-				System.out.println(players.get(4).getTerritories().size());
-				System.out.println(players.get(5).getTerritories().size());
-				break;
+            case 4:
+                for (int i = 0; i < allTerritory.size(); i = i + 4) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    if (i + 2 < allTerritory.size()) {
+                        players.get(2).addTerritory(allTerritory.get(i + 2));
+                        players.get(3).addTerritory(allTerritory.get(i + 3));
+                    }
+                }
+                for (int i = 0; i < 30; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                    players.get(3).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
+                System.out.println("nombre de territoires du joueur 4 : " + players.get(3).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 4 : "+players.get(3).getUnits().size());
+                break;
+
+            case 5:
+                for (int i = 0; i < allTerritory.size(); i = i + 5) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    if (i + 2 < allTerritory.size()) {
+                        players.get(2).addTerritory(allTerritory.get(i + 2));
+                        players.get(3).addTerritory(allTerritory.get(i + 3));
+                        players.get(4).addTerritory(allTerritory.get(i + 4));
+                    }
+                }
+                for (int i = 0; i < 25; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                    players.get(3).addUnit(new Infantry());
+                    players.get(4).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
+                System.out.println("nombre de territoires du joueur 4 : " + players.get(3).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 4 : "+players.get(3).getUnits().size());
+                System.out.println("nombre de territoires du joueur 5 : " + players.get(4).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 5 : "+players.get(4).getUnits().size());
+                break;
+            case 6:
+
+                for (int i = 0; i < allTerritory.size(); i = i + 6) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    players.get(2).addTerritory(allTerritory.get(i + 2));
+                    players.get(3).addTerritory(allTerritory.get(i + 3));
+                    players.get(4).addTerritory(allTerritory.get(i + 4));
+                    players.get(5).addTerritory(allTerritory.get(i + 5));
+                }
+                for (int i = 0; i < 20; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                    players.get(3).addUnit(new Infantry());
+                    players.get(4).addUnit(new Infantry());
+                    players.get(5).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
+                System.out.println("nombre de territoires du joueur 4 : " + players.get(3).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 4 : "+players.get(3).getUnits().size());
+                System.out.println("nombre de territoires du joueur 5 : " + players.get(4).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 5 : "+players.get(4).getUnits().size());
+                System.out.println("nombre de territoires du joueur 6 : " + players.get(5).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 6 : "+players.get(5).getUnits().size());
+                break;
 
 		}
 
@@ -259,27 +312,27 @@ public class GameInitializer {
 						region.findTerritoryByName("Egypt").addBorder(region1.findTerritoryByName("SouthernEurope"));
 						region1.findTerritoryByName("SouthernEurope").addBorder(region.findTerritoryByName("Egypt"));
 
-					}
-				} else if (region.getName().equals("Europe")) {
+                    }
+                } else if (region.getName().equals("Europe")) {
 
-					if (region1.getName().equals("NorthAmerica")) {
+                    if (region1.getName().equals("NorthAmerica")) {
 
-						region.findTerritoryByName("Iceland").addBorder(region1.findTerritoryByName("Greenland"));
-						region1.findTerritoryByName("Greenland").addBorder(region.findTerritoryByName("Iceland"));
+                        region.findTerritoryByName("Iceland").addBorder(region1.findTerritoryByName("Greenland"));
+                        region1.findTerritoryByName("Greenland").addBorder(region.findTerritoryByName("Iceland"));
 
-					}
-				} else if (region.getName().equals("NorthAmerica")) {
+                    }
+                } else if (region.getName().equals("NorthAmerica")) {
 
-					if (region1.getName().equals("SouthAmerica")) {
+                    if (region1.getName().equals("SouthAmerica")) {
 
-						region.findTerritoryByName("CentralAmerica").addBorder(region1.findTerritoryByName("Venezuela"));
-						region1.findTerritoryByName("Venezuela").addBorder(region.findTerritoryByName("CentralAmerica"));
+                        region.findTerritoryByName("CentralAmerica").addBorder(region1.findTerritoryByName("Venezuela"));
+                        region1.findTerritoryByName("Venezuela").addBorder(region.findTerritoryByName("CentralAmerica"));
 
-					}
-				}
-			}
-		}
-	}
+                    }
+                }
+            }
+        }
+    }
 
 
 	private void initNorthAmericaBorder(Region northAmerica) {
@@ -367,316 +420,316 @@ public class GameInitializer {
 		}
 	}
 
-	private void initSouthAmericaBorder(Region southAmerica) {
-		for (Territory territory :
-				southAmerica.getTerritories()) {
-			switch (territory.getName()) {
-				case "Argentina":
-					for (Territory border :
-							Arrays.asList(
-									southAmerica.findTerritoryByName("Peru"),
-									southAmerica.findTerritoryByName("Brazil"))) {
-						territory.addBorder(border);
-					}
-				case "Brazil":
-					for (Territory border :
-							Arrays.asList(
-									southAmerica.findTerritoryByName("Venezuela"),
-									southAmerica.findTerritoryByName("Argentina"),
-									southAmerica.findTerritoryByName("Peru"))) {
-						territory.addBorder(border);
-					}
-				case "Peru":
-					for (Territory border :
-							Arrays.asList(
-									southAmerica.findTerritoryByName("Venezuela"),
-									southAmerica.findTerritoryByName("Brazil"),
-									southAmerica.findTerritoryByName("Argentina"))) {
-						territory.addBorder(border);
-					}
-				case "Venezuela":
-					for (Territory border :
-							Arrays.asList(
-									southAmerica.findTerritoryByName("Brazil"),
-									southAmerica.findTerritoryByName("Peru"))) {
-						territory.addBorder(border);
-					}
-			}
-		}
-	}
+    private void initSouthAmericaBorder(Region southAmerica) {
+        for (Territory territory :
+                southAmerica.getTerritories()) {
+            switch (territory.getName()) {
+                case "Argentina":
+                    for (Territory border :
+                            Arrays.asList(
+                                    southAmerica.findTerritoryByName("Peru"),
+                                    southAmerica.findTerritoryByName("Brazil"))) {
+                        territory.addBorder(border);
+                    }
+                case "Brazil":
+                    for (Territory border :
+                            Arrays.asList(
+                                    southAmerica.findTerritoryByName("Venezuela"),
+                                    southAmerica.findTerritoryByName("Argentina"),
+                                    southAmerica.findTerritoryByName("Peru"))) {
+                        territory.addBorder(border);
+                    }
+                case "Peru":
+                    for (Territory border :
+                            Arrays.asList(
+                                    southAmerica.findTerritoryByName("Venezuela"),
+                                    southAmerica.findTerritoryByName("Brazil"),
+                                    southAmerica.findTerritoryByName("Argentina"))) {
+                        territory.addBorder(border);
+                    }
+                case "Venezuela":
+                    for (Territory border :
+                            Arrays.asList(
+                                    southAmerica.findTerritoryByName("Brazil"),
+                                    southAmerica.findTerritoryByName("Peru"))) {
+                        territory.addBorder(border);
+                    }
+            }
+        }
+    }
 
-	private void initAfricaBorder(Region africa) {
-		for (Territory territory :
-				africa.getTerritories()) {
-			switch (territory.getName()) {
-				case "Madagascar":
-					for (Territory border :
-							Arrays.asList(
-									africa.findTerritoryByName("EastAfrica"),
-									africa.findTerritoryByName("SouthAfrica"))) {
-						territory.addBorder(border);
-					}
-				case "SouthAfrica":
-					for (Territory border :
-							Arrays.asList(
-									africa.findTerritoryByName("Congo"),
-									africa.findTerritoryByName("EastAfrica"),
-									africa.findTerritoryByName("Madagascar"))) {
-						territory.addBorder(border);
-					}
-				case "Congo":
-					for (Territory border :
-							Arrays.asList(
-									africa.findTerritoryByName("NorthAfrica"),
-									africa.findTerritoryByName("EastAfrica"),
-									africa.findTerritoryByName("SouthAfrica"))) {
-						territory.addBorder(border);
-					}
-				case "EastAfrica":
-					for (Territory border :
-							Arrays.asList(
-									africa.findTerritoryByName("Egypt"),
-									africa.findTerritoryByName("Madagascar"),
-									africa.findTerritoryByName("SouthAfrica"),
-									africa.findTerritoryByName("Congo"),
-									africa.findTerritoryByName("NorthAfrica"))) {
-						territory.addBorder(border);
-					}
-				case "Egypt":
-					for (Territory border :
-							Arrays.asList(
-									africa.findTerritoryByName("EastAfrica"),
-									africa.findTerritoryByName("NorthAfrica"))) {
-						territory.addBorder(border);
-					}
-				case "NorthAfrica":
-					for (Territory border :
-							Arrays.asList(
-									africa.findTerritoryByName("Egypt"),
-									africa.findTerritoryByName("Congo"),
-									africa.findTerritoryByName("EastAfrica"))) {
-						territory.addBorder(border);
-					}
-			}
-		}
-	}
+    private void initAfricaBorder(Region africa) {
+        for (Territory territory :
+                africa.getTerritories()) {
+            switch (territory.getName()) {
+                case "Madagascar":
+                    for (Territory border :
+                            Arrays.asList(
+                                    africa.findTerritoryByName("EastAfrica"),
+                                    africa.findTerritoryByName("SouthAfrica"))) {
+                        territory.addBorder(border);
+                    }
+                case "SouthAfrica":
+                    for (Territory border :
+                            Arrays.asList(
+                                    africa.findTerritoryByName("Congo"),
+                                    africa.findTerritoryByName("EastAfrica"),
+                                    africa.findTerritoryByName("Madagascar"))) {
+                        territory.addBorder(border);
+                    }
+                case "Congo":
+                    for (Territory border :
+                            Arrays.asList(
+                                    africa.findTerritoryByName("NorthAfrica"),
+                                    africa.findTerritoryByName("EastAfrica"),
+                                    africa.findTerritoryByName("SouthAfrica"))) {
+                        territory.addBorder(border);
+                    }
+                case "EastAfrica":
+                    for (Territory border :
+                            Arrays.asList(
+                                    africa.findTerritoryByName("Egypt"),
+                                    africa.findTerritoryByName("Madagascar"),
+                                    africa.findTerritoryByName("SouthAfrica"),
+                                    africa.findTerritoryByName("Congo"),
+                                    africa.findTerritoryByName("NorthAfrica"))) {
+                        territory.addBorder(border);
+                    }
+                case "Egypt":
+                    for (Territory border :
+                            Arrays.asList(
+                                    africa.findTerritoryByName("EastAfrica"),
+                                    africa.findTerritoryByName("NorthAfrica"))) {
+                        territory.addBorder(border);
+                    }
+                case "NorthAfrica":
+                    for (Territory border :
+                            Arrays.asList(
+                                    africa.findTerritoryByName("Egypt"),
+                                    africa.findTerritoryByName("Congo"),
+                                    africa.findTerritoryByName("EastAfrica"))) {
+                        territory.addBorder(border);
+                    }
+            }
+        }
+    }
 
-	private void initOceaniaBorder(Region oceania) {
-		for (Territory territory :
-				oceania.getTerritories()) {
-			switch (territory.getName()) {
-				case "Indonesia":
-					for (Territory border :
-							Arrays.asList(
-									oceania.findTerritoryByName("NewGuinea"),
-									oceania.findTerritoryByName("WesternAustralia"))) {
-						territory.addBorder(border);
-					}
-				case "NewGuinea":
-					for (Territory border :
-							Arrays.asList(
-									oceania.findTerritoryByName("Indonesia"),
-									oceania.findTerritoryByName("EasternAustralia"),
-									oceania.findTerritoryByName("WesternAustralia"))) {
-						territory.addBorder(border);
-					}
-				case "EasternAustralia":
-					for (Territory border :
-							Arrays.asList(
-									oceania.findTerritoryByName("NewGuinea"),
-									oceania.findTerritoryByName("WesternAustralia"))) {
-						territory.addBorder(border);
-					}
-				case "WesternAustralia":
-					for (Territory border :
-							Arrays.asList(
-									oceania.findTerritoryByName("Indonesia"),
-									oceania.findTerritoryByName("NewGuinea"),
-									oceania.findTerritoryByName("EasternAustralia"))) {
-						territory.addBorder(border);
-					}
-			}
-		}
-	}
+    private void initOceaniaBorder(Region oceania) {
+        for (Territory territory :
+                oceania.getTerritories()) {
+            switch (territory.getName()) {
+                case "Indonesia":
+                    for (Territory border :
+                            Arrays.asList(
+                                    oceania.findTerritoryByName("NewGuinea"),
+                                    oceania.findTerritoryByName("WesternAustralia"))) {
+                        territory.addBorder(border);
+                    }
+                case "NewGuinea":
+                    for (Territory border :
+                            Arrays.asList(
+                                    oceania.findTerritoryByName("Indonesia"),
+                                    oceania.findTerritoryByName("EasternAustralia"),
+                                    oceania.findTerritoryByName("WesternAustralia"))) {
+                        territory.addBorder(border);
+                    }
+                case "EasternAustralia":
+                    for (Territory border :
+                            Arrays.asList(
+                                    oceania.findTerritoryByName("NewGuinea"),
+                                    oceania.findTerritoryByName("WesternAustralia"))) {
+                        territory.addBorder(border);
+                    }
+                case "WesternAustralia":
+                    for (Territory border :
+                            Arrays.asList(
+                                    oceania.findTerritoryByName("Indonesia"),
+                                    oceania.findTerritoryByName("NewGuinea"),
+                                    oceania.findTerritoryByName("EasternAustralia"))) {
+                        territory.addBorder(border);
+                    }
+            }
+        }
+    }
 
-	private void initEuropeBorder(Region europe) {
-		for (Territory territory :
-				europe.getTerritories()) {
-			switch (territory.getName()) {
-				case "GreatBritain":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("Iceland"),
-									europe.findTerritoryByName("Scandinavia"),
-									europe.findTerritoryByName("NorthernEurope"),
-									europe.findTerritoryByName("WesternEurope"))) {
-						territory.addBorder(border);
-					}
-				case "Iceland":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("GreatBritain"),
-									europe.findTerritoryByName("Scandinavia"))) {
-						territory.addBorder(border);
-					}
-				case "Scandinavia":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("GreatBritain"),
-									europe.findTerritoryByName("Ukraine"),
-									europe.findTerritoryByName("NorthernEurope"),
-									europe.findTerritoryByName("Iceland"))) {
-						territory.addBorder(border);
-					}
-				case "Ukraine":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("Scandinavia"),
-									europe.findTerritoryByName("SouthernEurope"),
-									europe.findTerritoryByName("NorthernEurope"))) {
-						territory.addBorder(border);
-					}
-				case "NorthernEurope":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("GreatBritain"),
-									europe.findTerritoryByName("Ukraine"),
-									europe.findTerritoryByName("SouthernEurope"),
-									europe.findTerritoryByName("WesternEurope"),
-									europe.findTerritoryByName("Scandinavia"))) {
-						territory.addBorder(border);
-					}
-				case "SouthernEurope":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("WesternEurope"),
-									europe.findTerritoryByName("NorthernEurope"),
-									europe.findTerritoryByName("Ukraine"))) {
-						territory.addBorder(border);
-					}
-				case "WesternEurope":
-					for (Territory border :
-							Arrays.asList(
-									europe.findTerritoryByName("GreatBritain"),
-									europe.findTerritoryByName("NorthernEurope"),
-									europe.findTerritoryByName("SouthernEurope"))) {
-						territory.addBorder(border);
-					}
-			}
-		}
-	}
+    private void initEuropeBorder(Region europe) {
+        for (Territory territory :
+                europe.getTerritories()) {
+            switch (territory.getName()) {
+                case "GreatBritain":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("Iceland"),
+                                    europe.findTerritoryByName("Scandinavia"),
+                                    europe.findTerritoryByName("NorthernEurope"),
+                                    europe.findTerritoryByName("WesternEurope"))) {
+                        territory.addBorder(border);
+                    }
+                case "Iceland":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("GreatBritain"),
+                                    europe.findTerritoryByName("Scandinavia"))) {
+                        territory.addBorder(border);
+                    }
+                case "Scandinavia":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("GreatBritain"),
+                                    europe.findTerritoryByName("Ukraine"),
+                                    europe.findTerritoryByName("NorthernEurope"),
+                                    europe.findTerritoryByName("Iceland"))) {
+                        territory.addBorder(border);
+                    }
+                case "Ukraine":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("Scandinavia"),
+                                    europe.findTerritoryByName("SouthernEurope"),
+                                    europe.findTerritoryByName("NorthernEurope"))) {
+                        territory.addBorder(border);
+                    }
+                case "NorthernEurope":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("GreatBritain"),
+                                    europe.findTerritoryByName("Ukraine"),
+                                    europe.findTerritoryByName("SouthernEurope"),
+                                    europe.findTerritoryByName("WesternEurope"),
+                                    europe.findTerritoryByName("Scandinavia"))) {
+                        territory.addBorder(border);
+                    }
+                case "SouthernEurope":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("WesternEurope"),
+                                    europe.findTerritoryByName("NorthernEurope"),
+                                    europe.findTerritoryByName("Ukraine"))) {
+                        territory.addBorder(border);
+                    }
+                case "WesternEurope":
+                    for (Territory border :
+                            Arrays.asList(
+                                    europe.findTerritoryByName("GreatBritain"),
+                                    europe.findTerritoryByName("NorthernEurope"),
+                                    europe.findTerritoryByName("SouthernEurope"))) {
+                        territory.addBorder(border);
+                    }
+            }
+        }
+    }
 
-	private void initAsiaBorder(Region asia) {
-		for (Territory territory :
-				asia.getTerritories()) {
-			switch (territory.getName()) {
-				case "Afghanistan":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Ural"),
-									asia.findTerritoryByName("China"),
-									asia.findTerritoryByName("India"),
-									asia.findTerritoryByName("MiddleEast"))) {
-						territory.addBorder(border);
-					}
-				case "Siam":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("India"),
-									asia.findTerritoryByName("China"))) {
-						territory.addBorder(border);
-					}
-				case "India":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("MiddleEast"),
-									asia.findTerritoryByName("Afghanistan"),
-									asia.findTerritoryByName("China"),
-									asia.findTerritoryByName("Siam"))) {
-						territory.addBorder(border);
-					}
-				case "MiddleEast":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Afghanistan"),
-									asia.findTerritoryByName("India"))) {
-						territory.addBorder(border);
-					}
-				case "China":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Afghanistan"),
-									asia.findTerritoryByName("Siberia"),
-									asia.findTerritoryByName("Mongolia"),
-									asia.findTerritoryByName("Siam"),
-									asia.findTerritoryByName("India"),
-									asia.findTerritoryByName("Ural"))) {
-						territory.addBorder(border);
-					}
-				case "Mongolia":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Siberia"),
-									asia.findTerritoryByName("Irkutsk"),
-									asia.findTerritoryByName("Kamchatka"),
-									asia.findTerritoryByName("Japan"),
-									asia.findTerritoryByName("China"))) {
-						territory.addBorder(border);
-					}
-				case "Japan":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Kamchatka"),
-									asia.findTerritoryByName("Mongolia"))) {
-						territory.addBorder(border);
-					}
-				case "Kamchatka":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Yakutsk"),
-									asia.findTerritoryByName("Japan"),
-									asia.findTerritoryByName("Mongolia"),
-									asia.findTerritoryByName("Irkutsk"))) {
-						territory.addBorder(border);
-					}
-				case "Irkutsk":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Siberia"),
-									asia.findTerritoryByName("Yakutsk"),
-									asia.findTerritoryByName("Kamchatka"),
-									asia.findTerritoryByName("Mongolia"))) {
-						territory.addBorder(border);
-					}
-				case "Yakutsk":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Siberia"),
-									asia.findTerritoryByName("Kamchatka"),
-									asia.findTerritoryByName("Irkutsk"))) {
-						territory.addBorder(border);
-					}
-				case "Siberia":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Ural"),
-									asia.findTerritoryByName("Yakutsk"),
-									asia.findTerritoryByName("Irkutsk"),
-									asia.findTerritoryByName("Mongolia"),
-									asia.findTerritoryByName("China"))) {
-						territory.addBorder(border);
-					}
-				case "Ural":
-					for (Territory border :
-							Arrays.asList(
-									asia.findTerritoryByName("Siberia"),
-									asia.findTerritoryByName("Afghanistan"),
-									asia.findTerritoryByName("China"))) {
-						territory.addBorder(border);
-					}
-			}
-		}
-	}
+    private void initAsiaBorder(Region asia) {
+        for (Territory territory :
+                asia.getTerritories()) {
+            switch (territory.getName()) {
+                case "Afghanistan":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Ural"),
+                                    asia.findTerritoryByName("China"),
+                                    asia.findTerritoryByName("India"),
+                                    asia.findTerritoryByName("MiddleEast"))) {
+                        territory.addBorder(border);
+                    }
+                case "Siam":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("India"),
+                                    asia.findTerritoryByName("China"))) {
+                        territory.addBorder(border);
+                    }
+                case "India":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("MiddleEast"),
+                                    asia.findTerritoryByName("Afghanistan"),
+                                    asia.findTerritoryByName("China"),
+                                    asia.findTerritoryByName("Siam"))) {
+                        territory.addBorder(border);
+                    }
+                case "MiddleEast":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Afghanistan"),
+                                    asia.findTerritoryByName("India"))) {
+                        territory.addBorder(border);
+                    }
+                case "China":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Afghanistan"),
+                                    asia.findTerritoryByName("Siberia"),
+                                    asia.findTerritoryByName("Mongolia"),
+                                    asia.findTerritoryByName("Siam"),
+                                    asia.findTerritoryByName("India"),
+                                    asia.findTerritoryByName("Ural"))) {
+                        territory.addBorder(border);
+                    }
+                case "Mongolia":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Siberia"),
+                                    asia.findTerritoryByName("Irkutsk"),
+                                    asia.findTerritoryByName("Kamchatka"),
+                                    asia.findTerritoryByName("Japan"),
+                                    asia.findTerritoryByName("China"))) {
+                        territory.addBorder(border);
+                    }
+                case "Japan":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Kamchatka"),
+                                    asia.findTerritoryByName("Mongolia"))) {
+                        territory.addBorder(border);
+                    }
+                case "Kamchatka":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Yakutsk"),
+                                    asia.findTerritoryByName("Japan"),
+                                    asia.findTerritoryByName("Mongolia"),
+                                    asia.findTerritoryByName("Irkutsk"))) {
+                        territory.addBorder(border);
+                    }
+                case "Irkutsk":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Siberia"),
+                                    asia.findTerritoryByName("Yakutsk"),
+                                    asia.findTerritoryByName("Kamchatka"),
+                                    asia.findTerritoryByName("Mongolia"))) {
+                        territory.addBorder(border);
+                    }
+                case "Yakutsk":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Siberia"),
+                                    asia.findTerritoryByName("Kamchatka"),
+                                    asia.findTerritoryByName("Irkutsk"))) {
+                        territory.addBorder(border);
+                    }
+                case "Siberia":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Ural"),
+                                    asia.findTerritoryByName("Yakutsk"),
+                                    asia.findTerritoryByName("Irkutsk"),
+                                    asia.findTerritoryByName("Mongolia"),
+                                    asia.findTerritoryByName("China"))) {
+                        territory.addBorder(border);
+                    }
+                case "Ural":
+                    for (Territory border :
+                            Arrays.asList(
+                                    asia.findTerritoryByName("Siberia"),
+                                    asia.findTerritoryByName("Afghanistan"),
+                                    asia.findTerritoryByName("China"))) {
+                        territory.addBorder(border);
+                    }
+            }
+        }
+    }
 
 
 }
