@@ -66,4 +66,5 @@ public class Player {
 	public void addTerritory(Territory territory) {
 		territories.add(territory);
 	}
+	public void addUnit(Unit unit){ units.add(unit); }
 }
