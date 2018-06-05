@@ -1,5 +1,7 @@
 package fr.isep.riskIsep;
 
+import fr.isep.riskIsep.unit.Infantry;
+
 import java.util.*;
 
 
@@ -42,11 +44,19 @@ public class GameInitializer {
                 for (int i = 0; i < allTerritory.size(); i = i + 2) {
                     players.get(0).addTerritory(allTerritory.get(i));
                     players.get(1).addTerritory(allTerritory.get(i + 1));
-
                 }
-                // System.out.println(allTerritory.size());
-                // System.out.println(players.get(0).getTerritories().size());
-                //  System.out.println(players.get(1).getTerritories().size());
+                for (int i = 0; i < 40; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                }
+
+
+                System.out.println(allTerritory.size());
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+
                 break;
             case 3:
                 for (int i = 0; i < allTerritory.size(); i = i + 3) {
@@ -55,9 +65,17 @@ public class GameInitializer {
                     players.get(2).addTerritory(allTerritory.get(i + 2));
 
                 }
-                System.out.println(players.get(0).getTerritories().size());
-                System.out.println(players.get(1).getTerritories().size());
-                System.out.println(players.get(2).getTerritories().size());
+                for (int i = 0; i < 35; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
 
             case 4:
                 for (int i = 0; i < allTerritory.size(); i = i + 4) {
@@ -68,10 +86,20 @@ public class GameInitializer {
                         players.get(3).addTerritory(allTerritory.get(i + 3));
                     }
                 }
-                System.out.println(players.get(0).getTerritories().size());
-                System.out.println(players.get(1).getTerritories().size());
-                System.out.println(players.get(2).getTerritories().size());
-                System.out.println(players.get(3).getTerritories().size());
+                for (int i = 0; i < 30; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                    players.get(3).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
+                System.out.println("nombre de territoires du joueur 4 : " + players.get(3).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 4 : "+players.get(3).getUnits().size());
                 break;
 
             case 5:
@@ -84,11 +112,23 @@ public class GameInitializer {
                         players.get(4).addTerritory(allTerritory.get(i + 4));
                     }
                 }
-                System.out.println(players.get(0).getTerritories().size());
-                System.out.println(players.get(1).getTerritories().size());
-                System.out.println(players.get(2).getTerritories().size());
-                System.out.println(players.get(3).getTerritories().size());
-                System.out.println(players.get(4).getTerritories().size());
+                for (int i = 0; i < 25; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                    players.get(3).addUnit(new Infantry());
+                    players.get(4).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
+                System.out.println("nombre de territoires du joueur 4 : " + players.get(3).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 4 : "+players.get(3).getUnits().size());
+                System.out.println("nombre de territoires du joueur 5 : " + players.get(4).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 5 : "+players.get(4).getUnits().size());
                 break;
             case 6:
 
@@ -100,12 +140,26 @@ public class GameInitializer {
                     players.get(4).addTerritory(allTerritory.get(i + 4));
                     players.get(5).addTerritory(allTerritory.get(i + 5));
                 }
-                System.out.println(players.get(0).getTerritories().size());
-                System.out.println(players.get(1).getTerritories().size());
-                System.out.println(players.get(2).getTerritories().size());
-                System.out.println(players.get(3).getTerritories().size());
-                System.out.println(players.get(4).getTerritories().size());
-                System.out.println(players.get(5).getTerritories().size());
+                for (int i = 0; i < 20; i++) {
+                    players.get(0).addUnit(new Infantry());
+                    players.get(1).addUnit(new Infantry());
+                    players.get(2).addUnit(new Infantry());
+                    players.get(3).addUnit(new Infantry());
+                    players.get(4).addUnit(new Infantry());
+                    players.get(5).addUnit(new Infantry());
+                }
+                System.out.println("nombre de territoires du joueur 1 : " + players.get(0).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 1 : "+players.get(0).getUnits().size());
+                System.out.println("nombre de territoires du joueur 2 : " + players.get(1).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 2 : "+players.get(1).getUnits().size());
+                System.out.println("nombre de territoires du joueur 3 : " + players.get(2).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 3 : "+players.get(2).getUnits().size());
+                System.out.println("nombre de territoires du joueur 4 : " + players.get(3).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 4 : "+players.get(3).getUnits().size());
+                System.out.println("nombre de territoires du joueur 5 : " + players.get(4).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 5 : "+players.get(4).getUnits().size());
+                System.out.println("nombre de territoires du joueur 6 : " + players.get(5).getTerritories().size());
+                System.out.println("nombre d'unites du joueur 6 : "+players.get(5).getUnits().size());
                 break;
 
         }
