@@ -38,10 +38,72 @@ public class GameInitializer {
                     players.get(1).addTerritory(allTerritory.get(i + 1));
 
                 }
-                System.out.println(allTerritory.size());
+                // System.out.println(allTerritory.size());
+                // System.out.println(players.get(0).getTerritories().size());
+                //  System.out.println(players.get(1).getTerritories().size());
+                break;
+            case 3:
+                for (int i = 0; i < allTerritory.size(); i = i + 3) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    players.get(2).addTerritory(allTerritory.get(i + 2));
+
+                }
                 System.out.println(players.get(0).getTerritories().size());
                 System.out.println(players.get(1).getTerritories().size());
+                System.out.println(players.get(2).getTerritories().size());
+
+            case 4:
+                for (int i = 0; i < allTerritory.size(); i = i + 4) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    if (i + 2 < allTerritory.size()) {
+                        players.get(2).addTerritory(allTerritory.get(i + 2));
+                        players.get(3).addTerritory(allTerritory.get(i + 3));
+                    }
+                }
+                System.out.println(players.get(0).getTerritories().size());
+                System.out.println(players.get(1).getTerritories().size());
+                System.out.println(players.get(2).getTerritories().size());
+                System.out.println(players.get(3).getTerritories().size());
+                break;
+
+            case 5:
+                for (int i = 0; i < allTerritory.size(); i = i + 5) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    if (i + 2 < allTerritory.size()) {
+                        players.get(2).addTerritory(allTerritory.get(i + 2));
+                        players.get(3).addTerritory(allTerritory.get(i + 3));
+                        players.get(4).addTerritory(allTerritory.get(i + 4));
+                    }
+                }
+                System.out.println(players.get(0).getTerritories().size());
+                System.out.println(players.get(1).getTerritories().size());
+                System.out.println(players.get(2).getTerritories().size());
+                System.out.println(players.get(3).getTerritories().size());
+                System.out.println(players.get(4).getTerritories().size());
+                break;
+            case 6:
+
+                for (int i = 0; i < allTerritory.size(); i = i + 6) {
+                    players.get(0).addTerritory(allTerritory.get(i));
+                    players.get(1).addTerritory(allTerritory.get(i + 1));
+                    players.get(2).addTerritory(allTerritory.get(i + 2));
+                    players.get(3).addTerritory(allTerritory.get(i + 3));
+                    players.get(4).addTerritory(allTerritory.get(i + 4));
+                    players.get(5).addTerritory(allTerritory.get(i + 5));
+                }
+                System.out.println(players.get(0).getTerritories().size());
+                System.out.println(players.get(1).getTerritories().size());
+                System.out.println(players.get(2).getTerritories().size());
+                System.out.println(players.get(3).getTerritories().size());
+                System.out.println(players.get(4).getTerritories().size());
+                System.out.println(players.get(5).getTerritories().size());
+                break;
+
         }
+
     }
 
     private void initRegion() {
