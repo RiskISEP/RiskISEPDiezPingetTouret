@@ -1,5 +1,7 @@
 package fr.isep.riskIsep;
 
+import org.newdawn.slick.SlickException;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +26,7 @@ public class Game {
 		this.regions = regions;
 	}
 
-	public void init() {
+	public void init() throws SlickException {
 
 		System.out.println("Bienvenue dans Risk !");
 		GameInitializer initializer = new GameInitializer(players, regions);

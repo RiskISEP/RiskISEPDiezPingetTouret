@@ -1,6 +1,8 @@
 package fr.isep.riskIsep;
 
 import fr.isep.riskIsep.unit.Unit;
+import org.newdawn.slick.Color;
+import org.newdawn.slick.Image;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +12,7 @@ public class Territory {
 	private String name;
 	private Region region;
 	private Player player;
+	private Image occupancy;
 	private List<Territory> borders = new ArrayList<>();
 	private List<Unit> units = new ArrayList<>();
 
@@ -42,6 +45,14 @@ public class Territory {
 		this.player = player;
 	}
 
+	public Image getOccupancy() {
+		return occupancy;
+	}
+
+	public void setOccupancy(Image occupancy) {
+		this.occupancy = occupancy;
+	}
+
 	public List<Territory> getBorders() {
 		return borders;
 	}
@@ -60,5 +71,9 @@ public class Territory {
 
 	public void setUnits(List<Unit> units) {
 		this.units = units;
+	}
+
+	public boolean isHovered(int xpos, int ypos) {
+		return occupancy.getColor((int) ((xpos - 383.8) * 1.418056279312142), (int) (ypos * 1.351251158480074)).equals(Color.white);
 	}
 }
