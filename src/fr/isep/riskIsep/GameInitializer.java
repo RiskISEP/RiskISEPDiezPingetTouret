@@ -22,20 +22,41 @@ public class GameInitializer {
 
 	public void start() throws SlickException {
 		initRegion();
-		initPlayers();
+		if (players.size()!=0){
+			initPlayers(players);
+		}
+		//initPlayers();
+	}
+
+	private void initPlayers(List<Player> players) {
+		List<Territory> allTerritory = new ArrayList<>();
+		for (Region region : regions) {
+			allTerritory.addAll(region.getTerritories());
+		}
+
+		Collections.shuffle(allTerritory);
+
+		for (int i = 0; i < allTerritory.size(); i = i + players.size()) {
+			for (int j = 0; j < players.size(); j++) {
+				if (!(i + j >= allTerritory.size())) {
+					players.get(j).addTerritory(allTerritory.get(i + j));
+					allTerritory.get(i + j).setPlayer(players.get(j));
+				}
+			}
+		}
 	}
 
 	private void initPlayers() {
 		Menu menu = new Menu();
 		menu.askForPlayers(players);
 		List<Territory> allTerritory = new ArrayList<>();
-		System.out.println("Partie initialisée!");
-		System.out.print(".\tRégions : ");
-		System.out.println(regions.size());
+//		System.out.println("Partie initialisée!");
+//		System.out.print(".\tRégions : ");
+//		System.out.println(regions.size());
 		for (Region it : regions) {
-			System.out.print(".\t" + it.getName() + " : ");
-			System.out.print(it.getTerritories().size());
-			System.out.println(" territoires");
+//			System.out.print(".\t" + it.getName() + " : ");
+//			System.out.print(it.getTerritories().size());
+//			System.out.println(" territoires");
 			for (Territory territory : it.getTerritories()) {
 				allTerritory.add(territory);
 			}
