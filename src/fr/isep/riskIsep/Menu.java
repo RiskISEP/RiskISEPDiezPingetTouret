@@ -6,6 +6,7 @@ import fr.isep.riskIsep.unit.Infantry;
 import fr.isep.riskIsep.unit.Unit;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -145,4 +146,77 @@ public class Menu {
 
     }
 
+    public int[] attack(Territory attacker, Territory defender, List<Unit> attackingUnits) {
+    	int[] diceResult = new int[5];
+
+        System.out.println(attacker.getName());
+        System.out.println(defender.getName());
+        System.out.println(attackingUnits);
+
+        if (/**!(attacker.getPlayer().isMine(defender)) &&**/ attacker.isBorderOf(defender)) {
+            List<Unit> defendingUnits = new ArrayList<>();
+            System.out.println("prout0");
+            if (attackingUnits.size() <= 3) {
+                Collections.sort(defender.getUnits(), Unit.unitDefenseCompare);
+                defendingUnits.add(defender.getUnits().get(0));
+                if (attackingUnits.size() >= 2) {
+                    defendingUnits.add(defender.getUnits().get(1));
+                    System.out.println(defendingUnits.get(0));
+                }
+            }
+
+	        int c = 0;
+            for (Unit unit :
+                    attackingUnits) {
+	            diceResult[c] = unit.dice();
+                unit.setScoreDice(diceResult[c]);
+	            c++;
+            }
+            Collections.sort(attackingUnits, Unit.unitADiceCompare);
+            System.out.println(attackingUnits);
+
+            System.out.println(attackingUnits.get(0));
+
+            c = 0;
+            for (Unit unit :
+                    defendingUnits) {
+            	diceResult[3+c] = unit.dice();
+                unit.setScoreDice(diceResult[3+c]);
+                c++;
+            }
+            Collections.sort(defendingUnits, Unit.unitDDiceCompare);
+            System.out.println("prout3");
+
+            System.out.println("prout4");
+
+            for (int i = 0; i < attackingUnits.size(); i++) {
+                for (int j = 0; j < defendingUnits.size(); j++) {
+                    if (i == j) {
+                        if (attackingUnits.get(i).getScoreDice() > defendingUnits.get(j).getScoreDice()) {
+                            defender.getUnits().remove(defendingUnits.get(j));
+                            defendingUnits.remove(defendingUnits.get(j));
+                            System.out.println("prout5");
+                        }
+                        else if (attackingUnits.get(i).getScoreDice() < defendingUnits.get(j).getScoreDice() || attackingUnits.get(i).getScoreDice() == defendingUnits.get(j).getScoreDice()) {
+                            attacker.getUnits().remove(attackingUnits.get(i));
+                            attackingUnits.remove(attackingUnits.get(i));
+                        }
+                    }
+                }
+            }
+
+            System.out.println("prout6");
+
+            if (defender.getUnits().size() == 0) {
+                move(attacker, defender, attackingUnits);
+                defender.getPlayer().getTerritories().remove(defender);
+                attacker.getPlayer().getTerritories().add(defender);
+            }
+
+            System.out.println("prout7");
+
+            //}
+        }
+        return diceResult;
+    }
 }

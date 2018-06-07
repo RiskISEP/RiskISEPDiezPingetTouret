@@ -3,75 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="f38d17ad-7a7e-4055-8a20-e853f608d1c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Font/CM Old Western Shadow.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Font/CM_Old_Western.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/CheckedCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/CheckedPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/DisabledLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/EnhancedLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/LeftArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/LeftMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/LowArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/LowMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/NonCheckedCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/NonCheckedPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/NonSelectedLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/RightArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/RightPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedLeftArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedLeftMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedLowArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedLowMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedRightArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedRightPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedUpArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/SelectedUpPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/UpArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/UpPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/HUD/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/MenuScreen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Font/CM Old Western Shadow.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Font/CM_Old_Western.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/CheckedCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/CheckedPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/DisabledLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/EnhancedLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/LeftArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/LeftMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/LowArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/LowMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/NonCheckedCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/NonCheckedPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/NonSelectedLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/RightArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/RightPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedLabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedLeftArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedLeftMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedLowArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedLowMinus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedRightArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedRightPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedUpArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/SelectedUpPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/UpArrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/UpPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/HUD/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MenuScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/GameInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/GameInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Territory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Territory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/MainScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/MapScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/MapScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/States.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/gui/States.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/unit/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/unit/Unit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/Territory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/Territory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/States.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/isep/riskIsep/unit/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/isep/riskIsep/unit/Unit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,101 +43,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="253">
+              <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
               <folding>
                 <element signature="e#279#280#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mission8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Mission/Mission8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="States.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/States.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapScreen.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#3326#3327#0" expanded="true" />
-                <element signature="e#3342#3343#0" expanded="true" />
-              </folding>
->>>>>>> mostRecentCommit
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
-=======
-      <file leaf-file-name="MenuScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MenuScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="194" column="52" lean-forward="true" selection-start-line="194" selection-start-column="52" selection-end-line="194" selection-end-column="52" />
->>>>>>> mostRecentCommit
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6028#6029#0" expanded="true" />
-                <element signature="e#6044#6045#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="219" column="26" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java">
+      <file leaf-file-name="Unit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/unit/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="460">
-              <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-=======
-            <state relative-caret-position="277">
-              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,8 +109,8 @@
       <file leaf-file-name="Territory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Territory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="270">
+              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#524#525#0" expanded="true" />
@@ -232,24 +138,51 @@
                 <element signature="e#1217#1218#0" expanded="true" />
                 <element signature="e#1236#1237#0" expanded="true" />
                 <element signature="e#1279#1280#0" expanded="true" />
->>>>>>> mostRecentCommit
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
+      <file leaf-file-name="MapScreen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4471#4472#0" expanded="true" />
+                <element signature="e#4487#4488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+              <folding>
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GameInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11964">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-=======
-      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MainScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="259">
+              <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,12 +193,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> mostRecentCommit
             </state>
           </provider>
         </entry>
@@ -304,17 +236,17 @@
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/GameInitializer.java" />
         <option value="$PROJECT_DIR$/src/Menu.java" />
-        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java" />
-        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java" />
-<<<<<<< HEAD
-=======
         <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/States.java" />
         <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MainScreen.java" />
-        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java" />
         <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MenuScreen.java" />
+        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/unit/Unit.java" />
+        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java" />
+        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java" />
+        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java" />
+        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Territory.java" />
+        <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java" />
         <option value="$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java" />
->>>>>>> mostRecentCommit
       </list>
     </option>
   </component>
@@ -323,6 +255,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -334,10 +271,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="-4" />
+    <option name="y" value="-14" />
+    <option name="width" value="1934" />
+    <option name="height" value="1037" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -345,47 +282,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
               <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="natives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="Font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="HUD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
@@ -397,6 +299,13 @@
               <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="riskIsep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RiskISEPDiezPingetTouret" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="riskIsep" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RiskISEPDiezPingetTouret" type="b2602c69:ProjectViewProjectNode" />
@@ -416,155 +325,13 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-=======
-      <pane id="AndroidView" />
->>>>>>> mostRecentCommit
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/GameInitializer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Menu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Player.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/fr/isep/riskIsep/Territory.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Artillery.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Cavalry.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Game.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/GameInitializer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Infantry.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Menu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission6.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission7.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Mission8.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Player.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Region.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Territory.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/RiskISEPDiezPingetTouret/Unit.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-=======
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -574,7 +341,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\RiskISEPDiezPingetTouret\res\Font" />
     </key>
->>>>>>> mostRecentCommit
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -589,10 +355,11 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.isep.riskIsep.Main" />
       <module name="RiskISEPDiezPingetTouret" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=lib/natives" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -635,11 +402,6 @@
       <properties />
       <listeners />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -653,11 +415,9 @@
       <updated>1528115543748</updated>
       <workItem from="1528132115057" duration="6868000" />
       <workItem from="1528199483245" duration="453000" />
-<<<<<<< HEAD
-=======
       <workItem from="1528208316343" duration="8311000" />
       <workItem from="1528302066604" duration="20150000" />
->>>>>>> mostRecentCommit
+      <workItem from="1528392948110" duration="9424000" />
     </task>
     <task id="LOCAL-00001" summary="relating borders">
       <created>1528120355660</created>
@@ -677,43 +437,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="11184000" />
-=======
-    <option name="totallyTimeSpent" value="40770000" />
->>>>>>> mostRecentCommit
+    <option name="totallyTimeSpent" value="50194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32750398" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021962" side_tool="true" visible="true" weight="0.32750398" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89677894" weight="0.0031796503" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4978038" visible="true" weight="0.32750398" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17423134" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
-=======
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32763532" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="7" />
@@ -722,11 +453,11 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="1.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32621083" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18657719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
       <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
       <window_info id="Learn" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -734,39 +465,14 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
->>>>>>> mostRecentCommit
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" visible="true" weight="0.32621083" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.32905984" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.43019944" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32768363" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32885906" />
-=======
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
->>>>>>> mostRecentCommit
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,51 +518,28 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Region.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Mission/Mission8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="1054">
+          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4471#4472#0" expanded="true" />
+            <element signature="e#4487#4488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Mission/Mission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Mission/Mission2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> mostRecentCommit
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Mission/Mission3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -905,8 +588,6 @@
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
-=======
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#542#543#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
@@ -932,7 +613,9 @@
             <element signature="e#1217#1218#0" expanded="true" />
             <element signature="e#1236#1237#0" expanded="true" />
             <element signature="e#1279#1280#0" expanded="true" />
->>>>>>> mostRecentCommit
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -949,16 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,16 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,8 +704,6 @@
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
-=======
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#542#543#0" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
@@ -1068,7 +729,9 @@
             <element signature="e#1217#1218#0" expanded="true" />
             <element signature="e#1236#1237#0" expanded="true" />
             <element signature="e#1279#1280#0" expanded="true" />
->>>>>>> mostRecentCommit
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1105,16 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,51 +785,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Region.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-=======
->>>>>>> mostRecentCommit
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/unit/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1257,54 +872,87 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11964">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/HUD/CheckedPoint.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/HUD/NonCheckedPoint.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MainScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
+        <state relative-caret-position="833">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> mostRecentCommit
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/States.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="460">
-          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-=======
-        <state relative-caret-position="294">
+        <state relative-caret-position="340">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MenuScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="194" column="52" selection-start-line="194" selection-start-column="52" selection-end-line="194" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/unit/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1313,48 +961,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="253">
+          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
           <folding>
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MenuScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="194" column="52" lean-forward="true" selection-start-line="194" selection-start-column="52" selection-end-line="194" selection-end-column="52" />
->>>>>>> mostRecentCommit
+        <state relative-caret-position="202">
+          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6028#6029#0" expanded="true" />
-            <element signature="e#6044#6045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/GameInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Territory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="270">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
@@ -1382,23 +1019,28 @@
             <element signature="e#1217#1218#0" expanded="true" />
             <element signature="e#1236#1237#0" expanded="true" />
             <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="219" column="26" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isep/riskIsep/gui/MapScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
->>>>>>> mostRecentCommit
+        <state relative-caret-position="338">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#3326#3327#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
+            <element signature="e#4471#4472#0" expanded="true" />
+            <element signature="e#4487#4488#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1406,9 +1048,79 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RiskISEPDiezPingetTouret</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

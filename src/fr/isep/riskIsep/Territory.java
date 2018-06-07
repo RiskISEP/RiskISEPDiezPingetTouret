@@ -81,4 +81,13 @@ public class Territory {
 	public boolean isHovered(int xpos, int ypos) {
 		return occupancy.getColor((int) ((xpos - 383.8) * 1.418056279312142), (int) (ypos * 1.351251158480074)).equals(Color.white);
 	}
+
+	public boolean isBorderOf(Territory arrive){
+		return borders.contains(arrive);
+	}
+
+	public int[] attackTerritory(Territory defense, List<Unit> attackUnits){
+		Menu menu = new Menu();
+		return menu.attack(this, defense, attackUnits);
+	}
 }

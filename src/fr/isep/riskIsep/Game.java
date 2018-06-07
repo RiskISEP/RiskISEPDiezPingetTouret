@@ -43,5 +43,28 @@ public class Game {
 
 	}
 
+	public int reinforcementControlled(Player player) {
+		return (player.getTerritories().size()) / 3;
+	}
 
+	public int regionControlled(Player player) {
+		int n = 0;
+		for (Region region :
+				player.getRegions()) {
+			n += region.getTerritories().size() / 2;
+		}
+		return n;
+	}
+
+	public int capturedTerritories(Player player) {
+		int p = 0;
+		for (int i = 0; i < player.getCapturedTerritories(); i++) {
+			if (((int) (Math.random() + 0.5)) == 1) p++;
+		}
+		return p;
+	}
+
+	public int reinforcement(Player player) {
+		return reinforcementControlled(player) + regionControlled(player) + capturedTerritories(player);
+	}
 }

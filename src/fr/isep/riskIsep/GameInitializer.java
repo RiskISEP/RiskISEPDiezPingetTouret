@@ -44,6 +44,11 @@ public class GameInitializer {
 				}
 			}
 		}
+		for (int i = 0; i<players.size(); i++) {
+			for (int j = 0; j < 40 - 5 * (players.size()-2); j++) {
+				players.get(i).addUnit(new Infantry());
+			}
+		}
 	}
 
 	private void initPlayers() {

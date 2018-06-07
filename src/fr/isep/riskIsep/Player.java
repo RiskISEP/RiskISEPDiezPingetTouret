@@ -12,6 +12,7 @@ public class Player {
 	private List<Region> regions = new ArrayList<>();
 	private List<Territory> territories = new ArrayList<>();
 	private List<Unit> units = new ArrayList<>();
+	private int capturedTerritories;
 	private Mission mission;
 	private boolean isAI;
 
@@ -68,8 +69,24 @@ public class Player {
 		this.mission = mission;
 	}
 
+	public int getCapturedTerritories() {
+		return capturedTerritories;
+	}
+
+	public void setCapturedTerritories(int capturedTerritories) {
+		this.capturedTerritories = capturedTerritories;
+	}
+
 	public void addTerritory(Territory territory) {
 		territories.add(territory);
 	}
 	public void addUnit(Unit unit){ units.add(unit); }
+
+	public boolean goal(){
+		return (territories.size() == 42);
+	}
+
+	public boolean isMine(Territory arrive){
+		return territories.contains(arrive);
+	}
 }
