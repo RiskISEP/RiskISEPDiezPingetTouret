@@ -1,6 +1,5 @@
 package fr.isep.riskIsep.gui;
 
-import fr.isep.riskIsep.Game;
 import org.newdawn.slick.*;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
@@ -18,12 +17,6 @@ public class MainScreen extends BasicGameState {
 
 	private StateBasedGame stateBasedGame;
 	private GameContainer container;
-	private Game game;
-
-	public MainScreen(Game game) throws SlickException {
-		this.game = game;
-		game.init();
-	}
 
 	@Override
 	public void init(GameContainer container, StateBasedGame stateBasedGame) throws SlickException {
@@ -55,7 +48,7 @@ public class MainScreen extends BasicGameState {
 
 	@Override
 	public void keyReleased(int key, char c) {
-		stateBasedGame.enterState(MapScreen.ID);
+		stateBasedGame.enterState(MenuScreen.ID);
 	}
 
 	@Override

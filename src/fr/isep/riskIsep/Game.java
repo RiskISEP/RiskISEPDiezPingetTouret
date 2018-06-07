@@ -34,6 +34,14 @@ public class Game {
 
 	}
 
+	public void init(List<Player> players) throws SlickException {
+
+		System.out.println("Bienvenue dans Risk !");
+		this.players = players;
+		GameInitializer initializer = new GameInitializer(this.players, this.regions);
+		initializer.start();
+
+	}
 
 
 }
