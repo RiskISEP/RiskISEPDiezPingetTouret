@@ -73,6 +73,7 @@ public class MapScreen extends BasicGameState {
 
 	@Override
 	public void render(GameContainer gameContainer, StateBasedGame stateBasedGame, Graphics graphics) throws SlickException {
+		this.stateBasedGame =stateBasedGame;
 		dashboard.draw(0, 0, WIDTH / 5, HEIGHT);
 		background.draw(WIDTH / 5, 0, WIDTH * 4 / 5, HEIGHT);
 		button.draw(WIDTH / 5, HEIGHT - 200, WIDTH / 5, 100);
@@ -90,12 +91,19 @@ public class MapScreen extends BasicGameState {
 			if (diceResult[i] != 0)
 				graphics.drawString(String.valueOf(diceResult[i]), 50, 230 + i * 15);
 		}
+		if (currentPlayer != null) {
+			graphics.drawString("Mission :", 50, 290);
+			graphics.drawString(currentPlayer.getMission().getName(), 50, 305);
+			graphics.drawString(currentPlayer.getMission().getDescription(), 50, 320);
+			graphics.drawString("Renforts x" + currentPlayer.getUnits().size(), 50, 360);
+		}
 		graphics.drawString("Tour Suivant", WIDTH * 3 / 10, HEIGHT - 150);
 		graphics.setColor(currentPlayer.getTerritories().contains(selectedTerritory) ? Color.white : Color.red);
 		graphics.drawString(selTerr, 50, 65);
 		if (selectedTerritory != null) {
 			drawTerritoryInfo(gameContainer, stateBasedGame, graphics);
 		}
+
 	}
 
 	@Override
@@ -109,7 +117,7 @@ public class MapScreen extends BasicGameState {
 		int xpos = Mouse.getX();
 		int ypos = Mouse.getY();
 		if (xpos > WIDTH / 5 && xpos < WIDTH * 2 / 5 && ypos > 100 && ypos < 200) {
-			if (Mouse.isButtonDown(0)) {
+			if (Mouse.isButtonDown(0) && currentPlayer.getUnits().size()==0) {
 				mouseLeft = true;
 			} else {
 				if (mouseLeft) {
@@ -151,10 +159,14 @@ public class MapScreen extends BasicGameState {
 	}
 
 	public void nextTurn() {
+		if (currentPlayer.goal() || currentPlayer.getMission().reached(game, currentPlayer)) stateBasedGame.enterState(EndScreen.ID);
 		if (playerIndex == game.getPlayers().size() - 1) roundNumber++;
 		currentPlayer = game.getPlayers().get(playerIndex);
 		playerIndex = (playerIndex + 1) % game.getPlayers().size();
 		lastSelectedTerritory = null;
+		for (int i = 0; i < game.reinforcement(currentPlayer); i++){
+			currentPlayer.getUnits().add(new Infantry());
+		}
 	}
 
 	public void drawTerritoryInfo(GameContainer gameContainer, StateBasedGame stateBasedGame, Graphics graphics) throws SlickException {

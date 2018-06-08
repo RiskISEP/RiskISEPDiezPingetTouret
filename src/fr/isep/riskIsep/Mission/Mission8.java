@@ -7,12 +7,12 @@ import fr.isep.riskIsep.Region;
 public class Mission8 extends Mission {
 
     public Mission8() {
-        super("fr.isep.riskIsep.Mission.Mission8", "Controler l'Asie et une autre region.");
+        super("Mission8", "Controler l'Asie et\nune autre region.");
     }
 
 
     @Override
-    boolean reached(Game game, Player player) {
+    public boolean reached(Game game, Player player) {
         Region asia = null;
         for (Region region :
                 game.getRegions()) {

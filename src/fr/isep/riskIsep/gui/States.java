@@ -19,5 +19,6 @@ public class States extends StateBasedGame {
 		addState(new MainScreen());
 		addState(new MenuScreen(game));
 		addState(new MapScreen(game));
+		addState(new EndScreen());
 	}
 }
