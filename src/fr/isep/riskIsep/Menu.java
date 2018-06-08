@@ -14,6 +14,8 @@ public class Menu {
 
     private Scanner scanner = new Scanner(System.in);
 
+    // methode qui demande le nombre souhaite de joueur et leurs noms
+
     public void askForPlayers(List<Player> players) {
 
         do {
@@ -54,6 +56,8 @@ public class Menu {
             System.out.println((players.size() < 2 || players.size() > 6) ? "nombre incorrect" : "c'est parti!");
         } while (players.size() < 2 || players.size() > 6);
     }
+
+    // methode de deplacement des unites
 
     public void move(Territory depart, Territory arrive, List<Unit> units) {
 
@@ -146,6 +150,8 @@ public class Menu {
 
     }
 
+    // methode pour l'attaque et la defense
+
     public int[] attack(Territory attacker, Territory defender, List<Unit> attackingUnits) {
     	int[] diceResult = new int[5];
 
@@ -153,7 +159,8 @@ public class Menu {
         System.out.println(defender.getName());
         System.out.println(attackingUnits);
 
-        if (/**!(attacker.getPlayer().isMine(defender)) &&**/ attacker.isBorderOf(defender)) {
+        // appeler la defense
+        if (!(attacker.getPlayer().isMine(defender)) && attacker.isBorderOf(defender)) {
             List<Unit> defendingUnits = new ArrayList<>();
             System.out.println("prout0");
             if (attackingUnits.size() <= 3) {
@@ -165,6 +172,7 @@ public class Menu {
                 }
             }
 
+            // trier les unites d'attaque
 	        int c = 0;
             for (Unit unit :
                     attackingUnits) {
@@ -177,6 +185,7 @@ public class Menu {
 
             System.out.println(attackingUnits.get(0));
 
+            //trier les unites de defense
             c = 0;
             for (Unit unit :
                     defendingUnits) {
@@ -189,6 +198,7 @@ public class Menu {
 
             System.out.println("prout4");
 
+            //combat / comparaison des scores
             for (int i = 0; i < attackingUnits.size(); i++) {
                 for (int j = 0; j < defendingUnits.size(); j++) {
                     if (i == j) {
@@ -205,15 +215,13 @@ public class Menu {
                 }
             }
 
-            System.out.println("prout6");
-
+            // capture d'un territoire gagnant
             if (defender.getUnits().size() == 0) {
                 move(attacker, defender, attackingUnits);
                 defender.getPlayer().getTerritories().remove(defender);
                 attacker.getPlayer().getTerritories().add(defender);
             }
 
-            System.out.println("prout7");
 
             //}
         }

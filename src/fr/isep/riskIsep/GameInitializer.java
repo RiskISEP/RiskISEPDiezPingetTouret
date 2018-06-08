@@ -7,6 +7,7 @@ import org.newdawn.slick.SlickException;
 
 import java.util.*;
 
+// classe d'initialisation
 
 public class GameInitializer {
 

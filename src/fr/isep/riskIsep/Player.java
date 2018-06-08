@@ -82,10 +82,12 @@ public class Player {
 	}
 	public void addUnit(Unit unit){ units.add(unit); }
 
+	//fonction but du jeu
 	public boolean goal(){
 		return (territories.size() == 42);
 	}
 
+	//verifie qu'un territoire appartient au joueur actif
 	public boolean isMine(Territory arrive){
 		return territories.contains(arrive);
 	}

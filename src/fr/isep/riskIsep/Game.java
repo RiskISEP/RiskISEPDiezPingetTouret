@@ -5,6 +5,7 @@ import org.newdawn.slick.SlickException;
 import java.util.ArrayList;
 import java.util.List;
 
+// classe principale gestionaire du deroulement du jeu
 public class Game {
 
 	private List<Player> players = new ArrayList<>();

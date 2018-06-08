@@ -81,12 +81,15 @@ public abstract class Unit {
 		this.territory = territory;
 	}
 
+	// simulation du lance de de
 	public int dice() {
 		Random die = new Random();
 
 		return die.nextInt(5) + 1 + power;
 	}
 
+	// creation des differents comparateurs
+	// suivant l'attribut power
 	public static Comparator<Unit> unitPowCompare = new Comparator<Unit>() {
 
 		public int compare(Unit s1, Unit s2) {
@@ -98,6 +101,7 @@ public abstract class Unit {
 		}
 	};
 
+	// suivant l'attribut priorite de defense
 	public static Comparator<Unit> unitDefenseCompare = new Comparator<Unit>() {
 
 		public int compare(Unit s1, Unit s2) {
@@ -109,6 +113,7 @@ public abstract class Unit {
 		}
 	};
 
+	// suivant l'attribut de priorite d'attaque
 	public static Comparator<Unit> unitAttackCompare = new Comparator<Unit>() {
 
 		public int compare(Unit s1, Unit s2) {
@@ -120,6 +125,7 @@ public abstract class Unit {
 		}
 	};
 
+	// si jamais egalite dans le lance de de pour les unites attaquantes
 	public static Comparator<Unit> unitADiceCompare = new Comparator<Unit>() {
 
 		public int compare(Unit s1, Unit s2) {
@@ -137,6 +143,7 @@ public abstract class Unit {
 		}
 	};
 
+	// si jamais egalite dans le lance de de pour les unites defensives
 	public static Comparator<Unit> unitDDiceCompare = new Comparator<Unit>() {
 
 		public int compare(Unit s1, Unit s2) {

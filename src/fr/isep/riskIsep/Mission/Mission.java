@@ -29,6 +29,7 @@ public abstract class Mission {
         this.description = description;
     }
 
+//    La mission est elle accomplie ?
     public abstract boolean reached(Game game, Player player);
 
 
